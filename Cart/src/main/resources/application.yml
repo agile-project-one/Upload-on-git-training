@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: ja
+    username: admin
+    password: Simple-123
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
